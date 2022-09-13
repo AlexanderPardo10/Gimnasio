@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "q2Tth/nI8uXY8MvcvsJlDjocaKSnG7v6A+EmQ4UQRN0Hpt62FuwNUHa8AlQGn9TwPX/ug1lX21ParG5r6D0eMw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,34 @@
+﻿@page
+@model Gym.App.Presentacion.Pages.QueryCustomersModel
+@{
+}
+<!-- clase bootstrap "text-info"-->
+<h2 class="text-info" style="text-align: center;" >Client List</h2>
+<!-- clase bootstrap "border"-->
+<div class="border">
+    <table class="table">
+        <!-- <tr> = filas y las <td> = columnas -->
+        <tr>
+            <td>Dni</td>
+            <td>Name</td>
+            <td>Surname</td>
+            <td>Age</td>
+            <td>Telephone</td>
+            <td>Address</td>
+            <td>Edition</td>
+        </tr>
+        @foreach(var reg in Model.lstCustomer){
+            <tr>
+                <td>@reg.Dni</td>
+                <td>@reg.Name</td>
+                <td>@reg.Surname</td>
+                <td>@reg.Age</td>
+                <td>@reg.Telephone</td>
+                <td>@reg.Address</td>
+                <td>
+                    <a type="button" asp-page="/Customers/EditionCustomer" class="btn btn-success" asp-route-customerId=@reg.Id>Edition</a>
+                </td>   
+            </tr>
+        }
+    </table>
+</div>

@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Vistas.Pages
+namespace Gym.App.Presentacion.Pages
 {
-    public class CustomerModel : PageModel
+    public class NutritionModel : PageModel
     {
         public void OnGet()
         {

@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Gym.App.Persistencia;
+using Gym.App.Dominio;
 
 namespace Gym.App.Presentacion
 {
@@ -28,6 +29,7 @@ namespace Gym.App.Presentacion
             services.AddRazorPages();
             // Este servicio me permite conectarme a la base de datos, en este caso me permite hacer el CRUD de los Clientes de la aplicación
             services.AddSingleton<IRepositorioCustomer, RepositorioCustomer>();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

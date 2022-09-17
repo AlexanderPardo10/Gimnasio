@@ -16,6 +16,7 @@ namespace Gym.App.Persistencia
         //BD, osea, crea una tabla a partir de una clase que esta en la
         //carpeta Entidades de la capa Dominio, por ejemplo la clase [Credential]
         //va a crear la tabla [Credentials].
+        //El DbSet maneja el Mapeo y el dbContext maneja la conexión con la base de datos
          public DbSet<Credential> Credentials {get; set;} 
          public DbSet<Tracking> Trackings {get; set;}
          public DbSet<Nutrition> Nutritions {get; set;}
@@ -33,8 +34,11 @@ namespace Gym.App.Persistencia
                 //El 1ro es el nombre del servidor (MSSQLlocalDB); por el momento de manera local,
                 //mas adelante lo cambiamos cuando estemos en la nube. El 2do el nombre de la BD 
                 optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLlocalDB; Initial Catalog = Gym_Tic5G");
+                //Data source es el nombre del servidor
+                //Initial catalog es el nombre que yo le coloco a la base de datos
             } 
         }
     }
+
 
 }

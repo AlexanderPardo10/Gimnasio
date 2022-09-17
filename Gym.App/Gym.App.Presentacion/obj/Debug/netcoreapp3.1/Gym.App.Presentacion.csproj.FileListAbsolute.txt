@@ -88,3 +88,5 @@ C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software
 C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gimnasio\Gimnasio\Gym.App\Gym.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\ProgramasEjercicio.cshtml.g.cs
 C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gimnasio\Gimnasio\Gym.App\Gym.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\ProgramasssEjercicios.cshtml.g.cs
 C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gimnasio\Gimnasio\Gym.App\Gym.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\QueryCustomers.cshtml.g.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gimnasio\Gimnasio\Gym.App\Gym.App.Presentacion\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gimnasio\Gimnasio\Gym.App\Gym.App.Presentacion\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qf1gCVkTb/+iVGF57B0Pvd9O+QmcD1e4ELvkSU7dPVO8AYCBP6aILZu5BnL1f9iQxU3DUpcfs/uG58/R0ech6w==",
+  "dgSpecHash": "si8EXiU2NwwEvSfuDyl6bWJ6qPcxFIqV3YpSYCHI+oiuCPOYsbQE6n4yMn73qBVZIQ01K4icCP3cVyfuOdLIDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Presentacion\\Gym.App.Presentacion.csproj",
+  "projectFilePath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Presentacion\\Gym.App.Presentacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexa\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

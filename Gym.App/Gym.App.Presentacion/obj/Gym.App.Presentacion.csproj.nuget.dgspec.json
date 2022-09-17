@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Presentacion\\Gym.App.Presentacion.csproj": {}
+    "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Presentacion\\Gym.App.Presentacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj": {
+    "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj",
         "projectName": "Gym.App.Dominio",
-        "projectPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj",
+        "projectPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Dominio\\obj\\",
+        "outputPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Persistencia\\Gym.App.Persistencia.csproj": {
+    "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Persistencia\\Gym.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Persistencia\\Gym.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Persistencia\\Gym.App.Persistencia.csproj",
         "projectName": "Gym.App.Persistencia",
-        "projectPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Persistencia\\Gym.App.Persistencia.csproj",
+        "projectPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Persistencia\\Gym.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Persistencia\\obj\\",
+        "outputPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -78,8 +78,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj"
+              "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj"
               }
             }
           }
@@ -133,14 +133,14 @@
         }
       }
     },
-    "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Presentacion\\Gym.App.Presentacion.csproj": {
+    "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Presentacion\\Gym.App.Presentacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Presentacion\\Gym.App.Presentacion.csproj",
+        "projectUniqueName": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Presentacion\\Gym.App.Presentacion.csproj",
         "projectName": "Gym.App.Presentacion",
-        "projectPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Presentacion\\Gym.App.Presentacion.csproj",
+        "projectPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Presentacion\\Gym.App.Presentacion.csproj",
         "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Presentacion\\obj\\",
+        "outputPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Presentacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -154,11 +154,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj"
+              "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj"
               },
-              "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Persistencia\\Gym.App.Persistencia.csproj": {
-                "projectPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Persistencia\\Gym.App.Persistencia.csproj"
+              "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Persistencia\\Gym.App.Persistencia.csproj": {
+                "projectPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Persistencia\\Gym.App.Persistencia.csproj"
               }
             }
           }

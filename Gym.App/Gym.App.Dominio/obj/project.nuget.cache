@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0WKH7EdnpR5o8cwHxCwyP2w1Clc1s9CabWF+SeR/30lhhrZXJ2NOl9GKppJPDFqGmkspgnTdaU7f39GBWxyQuA==",
+  "dgSpecHash": "wms0Zdzl1z4nuctLGgAIinIi8jXz1MdY2k4wkcXVGrzVH9ykSpqzYEevUuLWwjHXd1eJZ3pIodmfGguyQaBxVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

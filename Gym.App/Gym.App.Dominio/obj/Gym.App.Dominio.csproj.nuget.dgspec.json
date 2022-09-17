@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj": {}
+    "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj": {
+    "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj",
         "projectName": "Gym.App.Dominio",
-        "projectPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj",
+        "projectPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gimnasio\\Gimnasio\\Gym.App\\Gym.App.Dominio\\obj\\",
+        "outputPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Alex\\Gimnasio\\Gym.App\\Gym.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config"

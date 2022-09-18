@@ -27,22 +27,22 @@ namespace Gym.App.Presentacion.Pages
         {
             customer = new Customer();
         }
-        //public async Task<IActionResult> OnPost()
-        //{
-            //customer = _repoCustomer.consultCustomerByDni(customer.Dni);
-            //if (customer == null)
-           // {
-            //    return RedirectToPage("/Error");
-           // }
-           // return Page();
-        //}
+        public async Task<IActionResult> OnPost()
+        {
+            customer = _repoCustomer.consultCustomerByDni(customer.Dni);
+            if (customer == null)
+            {
+                return RedirectToPage("/Error");
+            }
+            return Page();
+        }
         //Como en la pagina [cshtml] tenemos dos metodos [post] una apunta a una
         //Consulta y la otra apunta a la Actualiacion del Cliente. 
         //Por eso utilizamos otro metodo [OnPost] y lo llamamos [OnPostEdit] 
         public async Task<IActionResult> OnPostEdit()
         {
             customer = _repoCustomer.updateCustomer(customer);
-            if (customer != null)
+            if (customer!= null)
             {
                 return RedirectToPage("/QueryCustomers");
             }

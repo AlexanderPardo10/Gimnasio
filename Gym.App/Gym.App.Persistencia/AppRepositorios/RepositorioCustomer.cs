@@ -43,6 +43,16 @@ namespace Gym.App.Persistencia
             //}
         }
 
+        public Customer consultCustomerByDni(string customerDni){
+            //El parametro de FirstOrDefault(p=>p.Id == int idCustomer)
+            //se encarga de realiazar la busqueda
+            return conexion.Customers.FirstOrDefault(p=>p.Dni == customerDni);
+            //var pacienteEncontrado = conexion.Pacientes.FirstOrDefault(p=>p.Id==idPaciente);            
+            //if (pacienteEncontrado != null){
+            //    return pacienteEncontrado; 
+            //}
+        }
+
         public IEnumerable <Customer> consultCustomers(){
             //Retorna todo lo que tiene la consulta
             return conexion.Customers;

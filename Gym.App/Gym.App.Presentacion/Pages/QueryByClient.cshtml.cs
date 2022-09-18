@@ -44,7 +44,7 @@ namespace Gym.App.Presentacion.Pages
             customer = _repoCustomer.updateCustomer(customer);
             if (customer != null)
             {
-                return RedirectToPage("/Customers/QueryCustomers");
+                return RedirectToPage("/QueryCustomers");
             }
             return RedirectToPage("/Error");
         }

@@ -29,6 +29,7 @@ namespace Gym.App.Presentacion
             services.AddRazorPages();
             // Este servicio me permite conectarme a la base de datos, en este caso me permite hacer el CRUD de los Clientes de la aplicación
             services.AddSingleton<IRepositorioCustomer, RepositorioCustomer>();
+            services.AddSingleton<IRepositorioExercise, RepositorioExercise>();
             
         }
 

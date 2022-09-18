@@ -1,0 +1,34 @@
+﻿@page
+@model Gym.App.Presentacion.Pages.ExerciseListModel
+@{
+}
+<!-- clase bootstrap "text-info"-->
+<h2 class="text-info" style="text-align: center;" >lista de Ejercicios</h2>
+<!-- clase bootstrap "border"-->
+<div class="border">
+    <table class="table">
+        <!-- <tr> = filas y las <td> = columnas -->
+        <tr>
+            <td>Parte del Cuerpo</td>
+            <td>Nivel</td>
+            <td>Consecutivo Nivel</td>
+            <td>Nombre Ejercicio</td>
+            <td>Editar</td>
+            <td>Borrar</td>
+        </tr>
+        @foreach(var reg in Model.lstExercise){
+            <tr>
+                <td>@reg.BodyPart</td>
+                <td>@reg.Intensity</td>
+                <td>@reg.ConsecutivoIntensidad</td>
+                <td>@reg.Name</td>
+                <td>
+                    <a type="button" asp-page="/EditionCustomer" class="btn btn-success" asp-route-customerId=@reg.Id>Editar</a>
+                </td>
+                <td>
+                    <a type="button" class="btn btn-success" asp-route-ExerciseId=@reg.Id>Borrar</a>
+                </td>    
+            </tr>
+        }
+    </table>
+</div>

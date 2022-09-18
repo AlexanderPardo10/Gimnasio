@@ -70,12 +70,15 @@ namespace Gym.App.Persistencia
                  customerFound.Telephone = customer.Telephone;
                  customerFound.Address = customer.Address;
                  //Se debe modificar los datos de las relaciones que tiene la Clase [Customer]   
-                 customerFound.Credential = customer.Credential;   
+                 customerFound.Credential = customer.Credential;
+                 customerFound.Genero    = customer.Genero;   
+                 customerFound.RoutineExercise = customer.RoutineExercise;
                  customerFound.Tracking   = customer.Tracking;
                  customerFound.Nutrition  = customer.Nutrition;
                  customerFound.Value      = customer.Value;
                  customerFound.Routine    = customer.Routine;
-                 customerFound.Genero    = customer.Genero;
+                 
+                 
 
                  conexion.SaveChanges();
             }

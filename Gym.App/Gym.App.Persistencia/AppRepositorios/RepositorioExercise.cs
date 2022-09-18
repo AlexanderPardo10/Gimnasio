@@ -43,12 +43,21 @@ namespace Gym.App.Persistencia
         public Exercise updateExercise(Exercise exercise){
             var exerciseFound = conexion.Exercises.FirstOrDefault(p=>p.Id == exercise.Id);
             if (exerciseFound != null){
+               
+                //Se deben modificar los datos de las relaciones que tiene la Clase [Customer]   
+                 exerciseFound.BodyPart = exercise.BodyPart;
+                 exerciseFound.Intensity = exercise.Intensity;
+               
                 //Actualizamos los atributos de la clase [Exercise]
                  exerciseFound.Id = exercise.Id;
+                 exerciseFound.ConsecutivoIntensidad = exercise.ConsecutivoIntensidad;
                  exerciseFound.Name = exercise.Name;
-                 exerciseFound.Series = exercise.Series;
-                 exerciseFound.Repetitions = exercise.Repetitions;
-                 exerciseFound.CaloriesConsumed = exercise.CaloriesConsumed;
+                 exerciseFound.TiempoDedidado = exercise.TiempoDedidado;
+                 exerciseFound.ExerciseConditions = exercise.ExerciseConditions;
+                 exerciseFound.ConsumedCalories = exercise.ConsumedCalories;
+                 exerciseFound.UrlExercise = exercise.UrlExercise;
+
+
                  //Se debe modificar los datos de las relaciones que tiene la Clase [Exercise]   
                  //routineFound.Exercise = routine.Exercise;   
                  conexion.SaveChanges();

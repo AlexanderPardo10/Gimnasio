@@ -1,0 +1,132 @@
+﻿@page
+@model Gym.App.Presentacion.Pages.CreateExerciseModel
+@{
+}
+<head>
+    <!-- se vincula al hoja de estilo para definir el aspecto del formulario de Registro-->  
+    <link rel="stylesheet" type="text/css" href="css/formulario.css">
+</head>
+<br>
+<h1 class="text-info" style="text-align: center;">Crear Ejercicio</h1>
+<!-- La etiqueta [div] crea un [Contenedor] -->
+<div class="border">
+    <!-- Metodo [post] envia la informacion del formulario -->
+    <form method="post">
+        <!-- [asp] metodo de .NET; [validation-summary] implementa un resumen de validaciones dentro del modelo, siempre y cuando
+        se incluya  en las Entidades del Dominio o en la clase del formulario -->
+        <!-- [text-danger] clase de bootstrap -->
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <!-- [padding: 10px] genera un margen a la izquierda de 10px -->
+        <div class="container" style="padding: 10px;">
+            <br><hr class="hr">
+            <!-- De aqui en adelante se repiten los elementos del formulario, solo es copiar y pegar; recuerde cambiar la PROPIEDAD,
+            en este caso es [Name] -->
+            <br>
+            <div class="form-group">
+                <div class="row">
+                    <!-- primer campo, 1 espacio para texto y 3 para la casilla-->
+                    <div class="col-sm-2">
+                        <label> Parte del cuerpo a Ejercitar</label>
+                     </div>
+                     <div class="col-sm-3">
+                        <input asp-for="exercise1.BodyPart" class="form-control">
+                     </div>
+                     <span asp-validation-for="exercise1.BodyPart" class="text-danger"></span>
+                     <!-- segundo campo, 1 espacio para texto y 3 para la casilla-->
+                     <div class="col-sm-1">
+                        <label>Nivel</label>
+                     </div>
+                     <div class="col-sm-3">
+                        <input asp-for="exercise1.Intensity" class="form-control">
+                     </div>
+                     <span asp-validation-for="exercise1.Intensity" class="text-danger"></span>
+                    <!-- tercer campo, 1 espacio para texto y 3 para la casilla-->
+                    <div class="col-sm-2">
+                        <label> Consecutivo Nivel</label>
+                     </div>
+                     <div class="col-sm-1">
+                        <input asp-for="exercise1.ConsecutivoIntensidad" class="form-control">
+                     </div>
+                     <span asp-validation-for="exercise1.BodyPart" class="text-danger"></span>
+
+                     
+                </div>   
+            </div>
+            <!-- Siguiente fila del formulario-->
+            <div class="form-group">
+                <div class="row">
+
+                     <!-- primer campo, 1 espacio para texto y 3 para la casilla-->
+                     <div class="col-sm-1">
+                        <label>Nombre Ejercicio</label>
+                     </div>
+                     <div class="col-sm-5">
+                        <input asp-for="exercise1.Name" class="form-control">
+                     </div>
+                     <span asp-validation-for="exercise1.Name" class="text-danger"></span>
+                     <!-- segundo campo, 1 espacio para texto y 3 para la casilla-->
+                      <div class="col-sm-2">
+                        <label> Tiempo ejercicio (min) </label>
+                     </div>
+                     <div class="col-sm-1">
+                        <input asp-for="exercise1.TiempoDedidado" class="form-control">
+                     </div>
+                     <span asp-validation-for="exercise1.TiempoDedidado" class="text-danger"></span> 
+                     <!-- Tercer campo, 1 espacio para texto y 3 para la casilla-->
+                     <div class="col-sm-2">
+                        <label>Calorias Consumidas (Cal)</label>
+                     </div>
+                     <div class="col-sm-1">
+                        <input asp-for="exercise1.ConsumedCalories" class="form-control">
+                     </div>
+                     <span asp-validation-for="exercise1.ConsumedCalories" class="text-danger"></span>                    
+                </div>   
+            </div>
+
+              <!-- Siguiente fila del formulario-->
+            <div class="form-group">
+                <div class="row">
+                    <!-- primer campo, 1 espacio para texto y 3 para la casilla-->
+                    <div class="col-sm-1">
+                        <label> Condiciones del ejercicio</label>
+                     </div>
+                     <div class="col-sm-5">
+                        <input asp-for="exercise1.ExerciseConditions" class="form-control">
+                     </div>
+                     <span asp-validation-for="exercise1.BodyPart" class="text-danger"></span>
+                     <!-- segundo campo, 1 espacio para texto y 3 para la casilla-->
+                      <div class="col-sm-1">
+                        <label> url Video Ejercicio </label>
+                     </div>
+                     <div class="col-sm-5">
+                        <input asp-for="exercise1.UrlExercise" class="form-control">
+                     </div>
+                     <span asp-validation-for="exercise1.UrlExercise" class="text-danger"></span>                     
+                </div>   
+            </div>
+
+
+            <br><hr class="hr">
+            <br>
+            <div class="form-group">
+                <div class="row">
+                    <!-- La clase [offset-sm-4] corre el boton submit 4 columnas a la derecha -->
+                    <div class="col-sm-2 offset-sm-4">
+                        <!-- La clase [btn btn-primary] boton de bootstrap -->
+                        <input type="submit" value="Create" class="btn btn-primary form-control">
+                     </div>
+                     <div class="col-sm-2">
+                          <a asp-page="/Index" class="btn btn-success form-control">Return</a>                      
+                     </div>
+                </div>
+            </div>
+            <br><hr class="hr">
+            <br>
+            <div class="form-group">
+                <div class="row">
+                     <div class="opcioncontra"><a href="">You don't have credentials? Create</a></div>
+                </div>   
+            </div>
+        </div>
+    </form>
+</div>

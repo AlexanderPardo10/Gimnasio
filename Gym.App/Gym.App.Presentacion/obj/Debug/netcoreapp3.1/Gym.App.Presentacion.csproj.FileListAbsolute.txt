@@ -182,3 +182,5 @@ C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software
 C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Alex\Gimnasio\Gym.App\Gym.App.Presentacion\obj\Debug\netcoreapp3.1\staticwebassets\Gym.App.Presentacion.StaticWebAssets.Manifest.cache
 C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Alex\Gimnasio\Gym.App\Gym.App.Presentacion\obj\Debug\netcoreapp3.1\staticwebassets\Gym.App.Presentacion.StaticWebAssets.xml
 C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Alex\Gimnasio\Gym.App\Gym.App.Presentacion\obj\Debug\netcoreapp3.1\Gym.App.Presentacion.genruntimeconfig.cache
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Alex\Gimnasio\Gym.App\Gym.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CreateExercise.cshtml.g.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Alex\Gimnasio\Gym.App\Gym.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\ExerciseList.cshtml.g.cs

@@ -75,6 +75,7 @@ namespace Gym.App.Persistencia
                  customerFound.Nutrition  = customer.Nutrition;
                  customerFound.Value      = customer.Value;
                  customerFound.Routine    = customer.Routine;
+                 customerFound.Genero    = customer.Genero;
 
                  conexion.SaveChanges();
             }

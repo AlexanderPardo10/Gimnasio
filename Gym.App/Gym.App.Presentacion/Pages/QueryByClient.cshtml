@@ -17,6 +17,7 @@
                         <input asp-for="customer.Dni">
                     </div>
                     <span asp-validation-for="customer.Dni" class="text-danger"></span>
+                    <!-- Este boton es el que ejecuta el método OnPost() de la hoja .cs -->
                     <input type="submit" value="Search" class="btn btn-primary">
                 </div>
             </div>
@@ -29,6 +30,7 @@
     <form method="post"  asp-page-handler="Edit">
         <!-- Capturo el Id y el Dni del Cliente y lo oculto para que NO se 
         muestre en el formulario con el atributo [hidden]-->
+         <!-- El customerId es necesario incluirlo porque el Irepoditorio de actualizar está ligado al Id del cliente, sin esta línea da error -->
         <input type="hidden" asp-for="customer.Id">
         <input type="hidden" asp-for="customer.Dni">
         <br>
@@ -79,6 +81,17 @@
                         <input asp-for="customer.Address" class="form-control">
                      </div>
                      <span asp-validation-for="customer.Address" class="text-danger"></span>
+                     
+                     <div class="col-sm-1">
+                        <label asp-for="customer.Genero"></label>
+                     </div>
+                     <div class="col-sm-3">
+                        <input asp-for="customer.Genero" class="form-control">
+                        <select name="Genero" id="Genero">
+                           <option value=>Genero</option>
+                        </select>
+                     </div>
+                     <span asp-validation-for="customer.Genero" class="text-danger"></span>
                 </div>   
             </div>
             <br><hr class="hr">
@@ -88,6 +101,7 @@
                     <!-- La clase [offset-sm-4] corre el boton submit 4 columnas a la derecha -->
                     <div class="col-sm-2 offset-sm-4">
                         <!-- La clase [btn btn-primary] boton de bootstrap -->
+                        <!-- Este boton es el que ejecuta el método OnPostEdit() de la hoja .cs -->
                         <input type="submit" value="Update" class="btn btn-primary form-control">
                      </div>
                      <div class="col-sm-2">

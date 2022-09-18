@@ -169,7 +169,6 @@ C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software
 C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Alex\Gimnasio\Gym.App\Gym.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Nutrition.cshtml.g.cs
 C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Alex\Gimnasio\Gym.App\Gym.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Alex\Gimnasio\Gym.App\Gym.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\ProgramasEjercicio.cshtml.g.cs
-C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Alex\Gimnasio\Gym.App\Gym.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\ProgramasssEjercicios.cshtml.g.cs
 C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Alex\Gimnasio\Gym.App\Gym.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\QueryByClient.cshtml.g.cs
 C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Alex\Gimnasio\Gym.App\Gym.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\QueryCustomers.cshtml.g.cs
 C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Alex\Gimnasio\Gym.App\Gym.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs

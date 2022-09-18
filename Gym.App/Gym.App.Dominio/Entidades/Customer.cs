@@ -24,5 +24,6 @@ namespace Gym.App.Dominio
         public Nutrition Value {get; set;}
         //Clase  Customer --> Routine
         public Nutrition Routine {get; set;}
+        public Gender Genero {get; set;}
     } 
 }    

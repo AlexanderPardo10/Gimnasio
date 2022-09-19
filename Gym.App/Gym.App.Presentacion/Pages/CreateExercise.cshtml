@@ -1,4 +1,5 @@
 ﻿@page
+@using Gym.App.Dominio
 @model Gym.App.Presentacion.Pages.CreateExerciseModel
 @{
 }
@@ -28,16 +29,20 @@
                     <div class="col-sm-2">
                         <label> Parte del cuerpo a Ejercitar</label>
                      </div>
-                     <div class="col-sm-3">
-                        <input asp-for="exercise1.BodyPart" class="form-control">
+                     <div class="col-sm-3">                        
+                        <!--<input asp-for="customer.Genero" class="form-control">  -->
+                        <!-- getbootstrap.com/docs/5.2/getting-started/introdution/ -->
+                       <!-- [asp-items] despliega la lst de la Clase enumerada Gender -->
+                       <!-- Importante referenciar la capa de Dominio en esta hoja:  @using Gym.App.Dominio -->
+                       <select class="form-select form-control" asp-for="exercise1.BodyPart" asp-items="@Html.GetEnumSelectList<BodyPart>()"></select> 
                      </div>
                      <span asp-validation-for="exercise1.BodyPart" class="text-danger"></span>
                      <!-- segundo campo, 1 espacio para texto y 3 para la casilla-->
                      <div class="col-sm-1">
                         <label>Nivel</label>
                      </div>
-                     <div class="col-sm-3">
-                        <input asp-for="exercise1.Intensity" class="form-control">
+                     <div class="col-sm-3">                        
+                        <select class="form-select form-control" asp-for="exercise1.Intensity" asp-items="@Html.GetEnumSelectList<Intensity>()"></select>
                      </div>
                      <span asp-validation-for="exercise1.Intensity" class="text-danger"></span>
                     <!-- tercer campo, 1 espacio para texto y 3 para la casilla-->

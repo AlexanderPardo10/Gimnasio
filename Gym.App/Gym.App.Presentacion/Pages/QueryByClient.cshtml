@@ -1,4 +1,5 @@
 ﻿@page
+@using Gym.App.Dominio 
 @model Gym.App.Presentacion.Pages.QueryByClientModel
 @{
 }
@@ -86,10 +87,11 @@
                         <label asp-for="customer.Genero"></label>
                      </div>
                      <div class="col-sm-3">
-                        <input asp-for="customer.Genero" class="form-control">
-                        <select name="Genero" id="Genero">
-                           <option value=>Genero</option>
-                        </select>
+                        <!--<input asp-for="customer.Genero" class="form-control">  -->
+                        <!-- getbootstrap.com/docs/5.2/getting-started/introdution/ -->
+                       <!-- [asp-items] despliega la lst de la Clase enumerada Gender -->
+                       <!-- Importante referenciar la capa de Dominio en esta hoja:  @using Gym.App.Dominio -->
+                       <select class="form-select form-control" asp-for="customer.Genero" asp-items="@Html.GetEnumSelectList<Gender>()"></select>
                      </div>
                      <span asp-validation-for="customer.Genero" class="text-danger"></span>
                 </div>   
